@@ -35,5 +35,16 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-    
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: basic test
+        run: echo This is a test
+              
+        
+            
+                
         
